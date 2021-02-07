@@ -16,10 +16,11 @@ portfolio:
     phonenumber: (317) 585-8468
     email: name@email.com
   social:
-    twitter: jekyllrb
-    facebook: jekyll
+    # twitter: jekyllrb
+    # facebook: jekyll
     github: jekyll
     linkedin: jekyll
+    # rss: 'https://jekyllrb.com'
 
 
 # Minima date format
