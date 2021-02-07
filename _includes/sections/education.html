@@ -10,7 +10,7 @@
         <p>{{ study.degree }}</p>
         <p>{{ study.description }}</p>
       </div>
-      <div class="flex-shrink-0"><span class="text-primary">{{ study.start_date }} - {{ study.end_date | default: 'Present' }}</span></div>
+      <div class="flex-shrink-0"><span class="text-primary">{{ study.start_date | date: "%B %Y" }} - {%- if study.end_date %} {{ study.end_date | date: "%B %Y" }} {% else %} Present {% endif %}</span></div>
     </div>
     {% endfor %}
   </div>

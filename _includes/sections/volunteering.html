@@ -9,7 +9,7 @@
         <div class="subheading mb-3">{{ job.institute }}</div>
         <p>{{ job.description }}</p>
       </div>
-      <div class="flex-shrink-0"><span class="text-primary">{{ job.start_date }} - {{ job.end_date | default: 'Present' }}</span></div>
+      <div class="flex-shrink-0"><span class="text-primary">{{ job.start_date | date: "%B %Y" }} - {%- if job.end_date %} {{ job.end_date | date: "%B %Y" }} {% else %} Present {% endif %}</span></div>
     </div>
     {% endfor %}
   </div>

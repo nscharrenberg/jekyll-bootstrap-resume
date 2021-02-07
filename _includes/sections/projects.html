@@ -9,7 +9,7 @@
         <div class="subheading mb-3">{{ project.stakeholders }}</div>
         <p>{{ project.description }}</p>
       </div>
-      <div class="flex-shrink-0"><span class="text-primary">{{ project.start_date }} - {{ project.end_date | default: 'Present' }}</span></div>
+      <div class="flex-shrink-0"><span class="text-primary">{{ project.start_date | date: "%B %Y" }} - {%- if project.end_date %} {{ project.end_date | date: "%B %Y" }} {% else %} Present {% endif %}</span></div>
     </div>
     {% endfor %}
   </div>
