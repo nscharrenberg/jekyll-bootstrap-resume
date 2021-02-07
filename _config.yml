@@ -1,0 +1,40 @@
+title: Your Portfolio
+author:
+  name: Your Name
+  email: your-email@domain.com
+description: > # this means to ignore newlines until "show_excerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+show_excerpts: false # set to true to show excerpts on the homepage
+portfolio:
+  info:
+    name:
+      firstname: John
+      lastname: Doe
+    location: 3542 Berry Street · Cheyenne Wells, CO 80810
+    phonenumber: (317) 585-8468
+    email: name@email.com
+  social:
+    twitter: jekyllrb
+    facebook: jekyll
+    github: jekyll
+    linkedin: jekyll
+
+
+# Minima date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+jekyll-bootstrap-resume-theme:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+theme: jekyll-bootstrap-resume-theme
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag

@@ -1,0 +1,17 @@
+<hr class="m-0" />
+<section class="resume-section" id="education">
+  <div class="resume-section-content">
+    <h2 class="mb-5">Education</h2>
+    {% for study in site.data.studies %}
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="flex-grow-1">
+        <h3 class="mb-0">{{ study.course }}</h3>
+        <div class="subheading mb-3">{{ study.school }}</div>
+        <p>{{ study.degree }}</p>
+        <p>{{ study.description }}</p>
+      </div>
+      <div class="flex-shrink-0"><span class="text-primary">{{ study.start_date }} - {{ study.end_date | default: 'Present' }}</span></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

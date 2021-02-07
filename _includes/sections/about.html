@@ -1,0 +1,16 @@
+<section class="resume-section" id="about">
+  <div class="resume-section-content">
+    <h1 class="mb-0">
+      {{ site.portfolio.info.name.firstname}}
+      <span class="text-primary">{{ site.portfolio.info.name.lastname}}</span>
+    </h1>
+    <div class="subheading mb-5">
+      {{ site.portfolio.info.location}} · {{ site.portfolio.info.phonenumber}} ·
+      <a href="mailto:{{ site.portfolio.info.email}}">{{ site.portfolio.info.email}}</a>
+    </div>
+    <p class="lead mb-5">
+      {{ content }}
+    </p>
+    {%- include socials.html -%}
+  </div>
+</section>

@@ -1,0 +1,16 @@
+<hr class="m-0" />
+<section class="resume-section" id="volunteer">
+  <div class="resume-section-content">
+    <h2 class="mb-5">Volunteer Work</h2>
+    {% for job in site.data.volunteers %}
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="flex-grow-1">
+        <h3 class="mb-0">{{ job.function }}</h3>
+        <div class="subheading mb-3">{{ job.institute }}</div>
+        <p>{{ job.description }}</p>
+      </div>
+      <div class="flex-shrink-0"><span class="text-primary">{{ job.start_date }} - {{ job.end_date | default: 'Present' }}</span></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

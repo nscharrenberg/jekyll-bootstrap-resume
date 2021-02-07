@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Drawing Recognition",
+    "stakeholders": "DEEPLEARNING4J",
+    "link": "http://www.google.com",
+    "start_date": "01-01-2021",
+    "description": "A Hobby project to get to know more about the usage of different kinds of ML approaches such as MLP, DT, RF, kNN, DL by letting them detect what is written on the canvas, starting with the simple mnist dataset."
+  },
+  {
+    "title": "Canvas Instructure Nudging AI",
+    "stakeholders": "Fontys University",
+    "start_date": "01-11-2019",
+    "end_date": "01-02-2020",
+    "description": "Using submissions and submission behaviour that students made on Instructure Canvas, to help them improve their study and to warn students and teachers when a student is most likely struggling. \n \n This is done by trying to use Artificial Intelligence to analyse student submissions and performing things like sentimental analysis, together with submission history and trying to give students a \"nudge\" into the right way to get them more productive."
+  },
+  {
+    "title": "Frightened Flowers - Glow Eindhoven 2019",
+    "stakeholders": "Glow & Fontys University",
+    "start_date": "01-09-2020",
+    "end_date": "01-12-2020",
+    "description": "Using UX, Hardware and Software for the creation of a unique lightshow for Glow 2019. Working with fairly unfamiliar technologies within a very short timespan and strict deadline(s).",
+  },
+  {
+    "title": "Rekeningrijden / Road Pricing",
+    "stakeholders": "Fontys University",
+    "start_date": "01-02-2019",
+    "end_date": "15-06-2019",
+    "description": "A project to learn enterprise development including microservices, where an application for \"Rekeningrijden\" or \"Road Pricing\" was made, for keeping track of vehicle routes, managing vehicles, taxing vehicles, and sharing vehicle information with other \"countries\"."
+  },
+  {
+    "title": "HoJo - International Project",
+    "stakeholders": "Oulu University & Fontys University",
+    "start_date": "01-01-2018",
+    "end_date": "15-06-2018",
+    "description": "International Project with students from Oulu University, where a tinder-like sport app was designed and created using Spring, Angular4 and VueJS.",
+  },
+  {
+    "title": "Blockchain & Open Badges",
+    "stakeholders": "Surf & Fontys University",
+    "start_date": "01-01-2018",
+    "end_date": "15-06-2018",
+    "description": "Performing research and development on a proof of concept for the use of blockchain with Open Badges for the decentralization of educational archievements, using React and Hyperledger Farbic with Composer."
+  },
+  {
+    "title": "Comboman The Game",
+    "stakeholders": "Fontys University",
+    "start_date": "01-08-2017",
+    "end_date": "01-01-2018",
+    "description": "Comboman is a multiplayer platform fighting game. Battle up to 4 other people from around the world. Use the weapons and power ups you find to eliminate your opponents and win the game. Comboman is a java based game running on a server using RMI (Java Remote Method Invocation). Originally based on Bomberman and later-on changed to be more similarly to smash bro’s."
+  },
+  {
+    "title": "Curema",
+    "stakeholders": "Open Source",
+    "start_date": "01-08-2017",
+    "end_date": "01-01-2018",
+    "description": "A simplified CRM system developed to bring a free alternative to already existing mostly expensive enterprise CRM systems.
+
+The main focus of this project was to focus on Software Engineering elements but also Branding and UX.",
+  }
+
+]

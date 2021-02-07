@@ -1,0 +1,16 @@
+<hr class="m-0" />
+<section class="resume-section" id="projects">
+  <div class="resume-section-content">
+    <h2 class="mb-5">Projects</h2>
+    {% for project in site.data.projects %}
+    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+      <div class="flex-grow-1">
+        <h3 class="mb-0"> {% if project.link %} <a target="_blank" href="{{ project.link | default: '#'}}">{{ project.title }}</a> {% else %} {{ project.title }} {% endif %} </h3>
+        <div class="subheading mb-3">{{ project.stakeholders }}</div>
+        <p>{{ project.description }}</p>
+      </div>
+      <div class="flex-shrink-0"><span class="text-primary">{{ project.start_date }} - {{ project.end_date | default: 'Present' }}</span></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
